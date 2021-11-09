@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-size: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#menu {
+    background: #87CEFA;
+    height: 40px;
+}
+
+#menu #nav {
+    text-transform: uppercase;
+    font-weight: 530;
+    font-size: 15px;
+}
+
+#nav > li > a {
+    color: #000;
+}
+
+#menu #nav #icon {
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 24px;
+    font-size: 17px;
+    float: right;
+}
+
+#menu #nav li:hover {
+    background-color: #ccc;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 24px;
+}
+
+#main #left {
+    width: 350px;
+    background: #ffecd2;
+    float: left;
+    min-height: 1000px;
+}
+
+#main #left .img {
+    width: 300px;
+    min-height: 300px;
+    display: block; 
+    padding: 20px 0;
+}
+
+#main #left .menu_left ul {
+    margin: 0;
+    padding: 0;
+}
+
+#main #left .menu_left h2 {
+    color: #8B4513;
+    text-align: center;
+    height: 40px;
+    padding: 30px 0;
+    font-size: 25px;
+}
+
+#main #left .menu_left ul .sub {
+    list-style: none;
+    color: #000;
+    line-height: 2.5;
+    font-size: 15px;
+    padding: 5px 7px;
+}
+
+.menu_left i[class*="ti-"] {
+    display: inline-block;
+    width: 30px;
+}
+
+#main #right {
+    width: 650px;
+    background: #ffecd2;
+    float: left;
+    min-height: 1000px;
+}
+
+#main #right .img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#main #right .menu_right h2 {
+    text-align: center;
+    height: 40px;
+    padding: 40px 0;
+    font-size: 25px;
+}
+
+#main #right .menu_right h3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    width: 500px;
+    line-height: 2;
+}
+
+#main #right .menu_right .pro {
+    color: #8B4513; 
+    line-height: 1.6;
+    font-size: 15px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;  
+}
